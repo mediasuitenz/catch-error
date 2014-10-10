@@ -1,6 +1,6 @@
 {
   "name": "catch-error",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A handy helper to make testing whether an error was thrown just a little bit nicer",
   "main": "index.js",
   "scripts": {},
