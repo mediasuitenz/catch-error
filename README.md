@@ -13,3 +13,9 @@ var error = catchError({ func: myFunc, args: ['hi', 'there'] })
 expect(error).to.be.an.instanceof(Error)
 expect(error.message).to.equal('wat')
 ```
+
+You may also need to set context for your function if it has been constructed
+with the `new` keyword. You can do this by passing in `context` like so:
+```js
+var error = catchError({ func: myFunc, context: this })
+```
