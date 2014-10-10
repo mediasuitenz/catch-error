@@ -1,8 +1,8 @@
 'use strict';
 
-module.exports = function catchError(functionToCall) {
+module.exports = function catchError(options) {
   try {
-    functionToCall.apply(this, Array.prototype.slice.call(arguments, 1))
+    options.func.apply(this, options.args)
   } catch (err) {
     return err
   }

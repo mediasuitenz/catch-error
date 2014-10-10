@@ -8,12 +8,22 @@
     "type": "git",
     "url": "git@github.com:mediasuitenz/catch-error.git"
   },
-  "keywords": ["testing", "errors"],
+  "keywords": [
+    "testing",
+    "errors"
+  ],
   "author": "Mark Stuart <mstuart_is@me.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mediasuitenz/catch-error/issues"
   },
   "homepage": "https://github.com/mediasuitenz/catch-error",
-  "contributors": ["Richard Walker <digitalsadhu@gmail.com>"]
+  "contributors": [
+    "Richard Walker <digitalsadhu@gmail.com>"
+  ],
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.4",
+    "testem": "^0.6.22"
+  }
 }

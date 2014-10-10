@@ -9,7 +9,7 @@ function myFunc(arg1, arg2) {
   throw new Error('wat')
 }
 
-var error = catchError(myFunc, arg1, arg2)
+var error = catchError({ func: myFunc, args: ['hi', 'there'] })
 expect(error).to.be.an.instanceof(Error)
 expect(error.message).to.equal('wat')
 ```
