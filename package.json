@@ -1,0 +1,19 @@
+{
+  "name": "catch-error",
+  "version": "0.0.1",
+  "description": "A handy helper to make testing whether an error was thrown just a little bit nicer",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mediasuitenz/catch-error.git"
+  },
+  "keywords": ["testing", "errors"],
+  "author": "Mark Stuart <mstuart_is@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mediasuitenz/catch-error/issues"
+  },
+  "homepage": "https://github.com/mediasuitenz/catch-error",
+  "contributors": ["Richard Walker <digitalsadhu@gmail.com>"]
+}
