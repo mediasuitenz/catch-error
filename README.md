@@ -1,6 +1,10 @@
 Catch Error
 ===========
 
+[![NPM](https://nodei.co/npm/catch-error.png?downloads=true&stars=true)](https://nodei.co/npm/catch-error/)
+
+[![Media Suite](http://mediasuite.co.nz/ms-badge.png)](http://mediasuite.co.nz)
+
 A handy helper to make testing whether an error was thrown just a little bit nicer.
 
 ```js
