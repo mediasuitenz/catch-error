@@ -5,6 +5,8 @@ Catch Error
 
 [![Media Suite](http://mediasuite.co.nz/ms-badge.png)](http://mediasuite.co.nz)
 
+[![Build Status](https://travis-ci.org/mediasuitenz/catch-error.svg?branch=add%2Ftravis_ci)](https://travis-ci.org/mediasuitenz/catch-error)
+
 A handy helper to make testing whether an error was thrown just a little bit nicer.
 
 ```js
